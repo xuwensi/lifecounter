@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var player2LifeLabel: UILabel!
     @IBOutlet weak var loseMessageLabel: UILabel!
     
+    @IBOutlet weak var player1StackView: UIStackView!
+    
+    @IBOutlet weak var player2StackView: UIStackView!
+    
     @IBAction func p1PlusBtn(_ sender: UIButton) {
         player1LifeTotal += 1
         displayPlayer1Life()
